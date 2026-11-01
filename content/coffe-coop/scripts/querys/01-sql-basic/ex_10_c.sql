@@ -14,9 +14,20 @@ WHERE T1.delivery_id LIKE 'DLV-20260930-%'
   AND T1.deductions_amount = 0;
 
 /*
-PEGUE AQUI EL RESULTADO
-
-EXPLICACION (escribala con sus propias palabras en el .md):
-gross_amount es una columna GENERATED: la base de datos la calcula sola como
-net_weight_kg * price_per_kg_applied. Por eso check_gross_cop da el mismo valor.
+     settlement      |      delivery       | net_weight_kg | price_per_kg | deductions_cop | gross_cop  | check_gross_cop 
+---------------------+---------------------+---------------+--------------+----------------+------------+-----------------
+ STL-20261001-000006 | DLV-20260930-000003 |        109.68 |     22083.00 |           0.00 | 2422063.44 |    2422063.4400
+ STL-20261001-000060 | DLV-20260930-000005 |        251.37 |     21052.00 |           0.00 | 5291841.24 |    5291841.2400
+ STL-20261003-000006 | DLV-20260930-000012 |         47.08 |     21627.00 |           0.00 | 1018199.16 |    1018199.1600
+ STL-20261002-000018 | DLV-20260930-000020 |        113.45 |     21439.00 |           0.00 | 2432254.55 |    2432254.5500
+ STL-20261003-000001 | DLV-20260930-000023 |        219.26 |     22645.00 |           0.00 | 4965142.70 |    4965142.7000
+ STL-20261002-000006 | DLV-20260930-000025 |        173.32 |     21155.00 |           0.00 | 3666584.60 |    3666584.6000
+ STL-20261001-000058 | DLV-20260930-000027 |        180.33 |     22112.00 |           0.00 | 3987456.96 |    3987456.9600
+ STL-20261002-000024 | DLV-20260930-000029 |        228.30 |     21942.00 |           0.00 | 5009358.60 |    5009358.6000
+ STL-20260930-000050 | DLV-20260930-000037 |         63.66 |     21964.00 |           0.00 | 1398228.24 |    1398228.2400
+ STL-20261002-000003 | DLV-20260930-000041 |         45.15 |     23402.00 |           0.00 | 1056600.30 |    1056600.3000
+...
+(48 rows)
 */
+
+-- La explicacion de por que gross_amount coincide con check_gross_cop esta en el documento Markdown.

@@ -9,5 +9,8 @@ WHERE T1.municipality_name ILIKE '%pamplona%'
 ORDER BY T1.municipality_name ASC;
 
 /*
-PEGUE AQUI EL RESULTADO
+ municipality_code | municipality 
+-------------------+--------------
+ 54518             | Pamplona
+(1 row)
 */

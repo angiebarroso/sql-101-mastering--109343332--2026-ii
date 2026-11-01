@@ -12,5 +12,18 @@ WHERE T1.delivery_id LIKE 'DLV-20260930-%'
   AND T1.moisture_pct NOT BETWEEN 10 AND 12;
 
 /*
-PEGUE AQUI EL RESULTADO
+      analysis      |      delivery       | moisture_pct |    analyst_name    |                          observations                           
+--------------------+---------------------+--------------+--------------------+-----------------------------------------------------------------
+ QA-20260930-000026 | DLV-20260930-000005 |        12.19 | Wilson Galvis      | 
+ QA-20260930-000018 | DLV-20260930-000006 |        17.24 | Nicolás Serrano    | Café con humedad alta, requiere más secado.
+ QA-20260930-000017 | DLV-20260930-000012 |        12.15 | Natalia Trujillo   | 
+ QA-20260930-000033 | DLV-20260930-000027 |        12.41 | Sara Sánchez       | 
+ QA-20260930-000013 | DLV-20260930-000038 |        12.28 | Adriana Losada     | 
+ QA-20260930-000005 | DLV-20260930-000040 |        12.22 | Iván Castro        | 
+ QA-20260930-000027 | DLV-20260930-000043 |        12.07 | Germán González    | Caficultor solicita contramuestra.
+ QA-20260930-000102 | DLV-20260930-000155 |        12.31 | Adriana Losada     | 
+ QA-20260930-000085 | DLV-20260930-000161 |        12.03 | Carlos Ospina      | Muestra limpia, color homogéneo.
+ QA-20260930-000068 | DLV-20260930-000165 |        16.13 | Germán Peña        | Muestra tomada por duplicado.
+...
+(40 rows)
 */

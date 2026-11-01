@@ -10,5 +10,10 @@ WHERE T1.department_code = '54'
 ORDER BY T1.municipality_name ASC;
 
 /*
-PEGUE AQUI EL RESULTADO
+ municipality_code | municipality 
+-------------------+--------------
+ 54670             | San Calixto
+ 54673             | San Cayetano
+ 54680             | Santiago
+(3 rows)
 */
