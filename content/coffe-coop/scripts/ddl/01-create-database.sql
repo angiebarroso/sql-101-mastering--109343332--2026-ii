@@ -25,3 +25,4 @@ GRANT ALL PRIVILEGES ON DATABASE coffee_coop_db TO cc_admin;
 -- ##################################################
 -- #                 END OF SCRIPT                  #
 -- ##################################################
+e
