@@ -9,9 +9,9 @@ FROM farm.certifications AS T1
 ORDER BY T1.premium_per_kg DESC;
 
 /*
-    certification    |              issuer               | premium_per_kg_cop 
+  certification    |              issuer               | premium_per_kg_cop
 ---------------------+-----------------------------------+--------------------
- Orgánico            | Ente certificador orgánico        |             800.00
+ Orgßnico            | Ente certificador orgßnico        |             800.00
  Bird Friendly       | Smithsonian Migratory Bird Center |             500.00
  Fairtrade           | Fairtrade International           |             400.00
  Nespresso AAA       | Nespresso / Rainforest Alliance   |             350.00

@@ -9,12 +9,12 @@ FROM farm.coffee_varieties AS T1
 WHERE T1.is_rust_resistant = TRUE;
 
 /*
-  variety   | species |                             description                             
+variety   | species |                             description
 ------------+---------+---------------------------------------------------------------------
- Castillo   | arabica | Variedad colombiana resistente a la roya, la más sembrada del país.
+ Castillo   | arabica | Variedad colombiana resistente a la roya, la mßs sembrada del paÝs.
  Colombia   | arabica | Variedad compuesta resistente a la roya, antecesora de Castillo.
- Cenicafé 1 | arabica | Variedad de porte bajo con resistencia a la roya.
+ CenicafÚ 1 | arabica | Variedad de porte bajo con resistencia a la roya.
  Tabi       | arabica | Variedad de porte alto resistente a la roya.
- Robusta    | robusta | Especie Coffea canephora, de mayor contenido de cafeína.
+ Robusta    | robusta | Especie Coffea canephora, de mayor contenido de cafeÝna.
 (5 rows)
 */
