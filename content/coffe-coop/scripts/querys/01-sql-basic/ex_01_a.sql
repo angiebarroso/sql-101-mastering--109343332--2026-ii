@@ -5,7 +5,6 @@ SELECT *
 FROM geo.departments AS T1;
 
 /*
- 
  department_code |                     department_name
 -----------------+----------------------------------------------------------
  05              | Antioquia
