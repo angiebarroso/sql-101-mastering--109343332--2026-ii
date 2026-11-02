@@ -13,7 +13,7 @@ WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 ORDER BY T1.delivered_at ASC;
 
 /*
-     delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg
+      delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg 
 ---------------------+---------+---------------------+---------------------+---------------+-----------------
  DLV-20260930-000001 |  121925 |                  68 | 2026-09-30 06:01:10 | dry_parchment |           51.53
  DLV-20260930-000002 |   39639 |                  48 | 2026-09-30 06:03:32 | dry_parchment |          124.98

@@ -5,25 +5,25 @@ SELECT *
 FROM geo.departments AS T1;
 
 /*
- department_code |                     department_name
+ department_code |                     department_name                      
 -----------------+----------------------------------------------------------
  05              | Antioquia
- 08              | AtlÃ¡ntico
- 11              | BogotÃ¡, D.C.
- 13              | BolÃ­var
- 15              | BoyacÃ¡
+ 08              | Atlántico
+ 11              | Bogotá, D.C.
+ 13              | Bolívar
+ 15              | Boyacá
  17              | Caldas
- 18              | CaquetÃ¡
+ 18              | Caquetá
  19              | Cauca
  20              | Cesar
- 23              | CÃ³rdoba
+ 23              | Córdoba
  25              | Cundinamarca
- 27              | ChocÃ³
+ 27              | Chocó
  41              | Huila
  44              | La Guajira
  47              | Magdalena
  50              | Meta
- 52              | NariÃ±o
+ 52              | Nariño
  54              | Norte De Santander
  63              | Quindio
  66              | Risaralda
@@ -34,12 +34,11 @@ FROM geo.departments AS T1;
  81              | Arauca
  85              | Casanare
  86              | Putumayo
- 88              | ArchipiÃ©lago De San AndrÃ©s, Providencia Y Santa Catalina
+ 88              | Archipiélago De San Andrés, Providencia Y Santa Catalina
  91              | Amazonas
- 94              | GuainÃ­a
+ 94              | Guainía
  95              | Guaviare
- 97              | VaupÃ©s
+ 97              | Vaupés
  99              | Vichada
 (33 rows)
-
 */

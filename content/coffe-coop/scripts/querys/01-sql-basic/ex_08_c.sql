@@ -12,7 +12,7 @@ WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 ORDER BY T1.gross_weight_kg DESC;
 
 /*
-    delivery       | farm_id |  coffee_type  | gross_weight_kg
+      delivery       | farm_id |  coffee_type  | gross_weight_kg 
 ---------------------+---------+---------------+-----------------
  DLV-20260930-000081 |   19338 | cherry        |          475.13
  DLV-20260930-000187 |  231839 | cherry        |          339.30

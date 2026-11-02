@@ -20,12 +20,12 @@ FROM geo.departments AS T1;
  20   | Cesar
  23   | Córdoba
  25   | Cundinamarca
- 27   | Choc¾
+ 27   | Chocó
  41   | Huila
  44   | La Guajira
  47   | Magdalena
  50   | Meta
- 52   | Nari±o
+ 52   | Nariño
  54   | Norte De Santander
  63   | Quindio
  66   | Risaralda
@@ -36,12 +36,11 @@ FROM geo.departments AS T1;
  81   | Arauca
  85   | Casanare
  86   | Putumayo
- 88   | ArchipiÚlago De San AndrÚs, Providencia Y Santa Catalina
+ 88   | Archipiélago De San Andrés, Providencia Y Santa Catalina
  91   | Amazonas
- 94   | GuainÝa
+ 94   | Guainía
  95   | Guaviare
- 97   | VaupÚs
+ 97   | Vaupés
  99   | Vichada
 (33 rows)
-
 */
