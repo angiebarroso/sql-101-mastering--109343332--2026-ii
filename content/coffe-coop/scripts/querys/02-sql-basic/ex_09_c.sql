@@ -16,5 +16,36 @@ HAVING COUNT(T3.analysis_id) >= 3
 ORDER BY avg_cup_score DESC;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+       farm       | analyses_count | avg_cup_score
+------------------+----------------+---------------
+ El Caney         |              3 |         90.00
+ Monteverde       |              4 |         90.00
+ El Tesoro        |              3 |         90.00
+ Los Pinos        |              5 |         90.00
+ Las Delicias     |              5 |         90.00
+ La Cristalina    |              3 |         90.00
+ Santa Clara      |              3 |         90.00
+ La Uni¾n         |              3 |         90.00
+ El Arrayßn       |              3 |         90.00
+ El ParaÝso       |              3 |         90.00
+ El Refugio       |              3 |         90.00
+ El Triunfo       |              4 |         90.00
+ El Porvenir      |              3 |         90.00
+ El Recuerdo      |              3 |         90.00
+ Los Pinos        |              7 |         90.00
+ El Mango         |              7 |         90.00
+ Las Palmas       |              5 |         90.00
+ El Higuer¾n      |              6 |         90.00
+ Altamira         |              3 |         90.00
+ El Tesoro        |              3 |         90.00
+ La Caba±a        |              5 |         90.00
+ El Triunfo       |              6 |         90.00
+ El Higuer¾n      |              3 |         90.00
+ La Selva         |              4 |         90.00
+ La Caba±a        |              6 |         90.00
+ La Floresta      |              6 |         90.00
+ La Reserva       |              3 |         90.00
+ El Arrayßn       |              4 |         90.00
+-- Más  --
+esta super largo lo deje hasta aqui 
 */

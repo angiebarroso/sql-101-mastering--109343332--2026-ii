@@ -12,5 +12,17 @@ HAVING COUNT(T2.municipality_code) > 40
 ORDER BY municipalities_count DESC;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+   department    | municipalities_count
+-----------------+----------------------
+ Antioquia       |                  125
+ Boyacß          |                  123
+ Cundinamarca    |                  116
+ Santander       |                   87
+ Nari±o          |                   64
+ Tolima          |                   47
+ BolÝvar         |                   46
+ Cauca           |                   42
+ Valle Del Cauca |                   42
+(9 rows)
+
 */

@@ -13,5 +13,11 @@ HAVING SUM(T1.gross_weight_kg) > 1000
 ORDER BY total_gross_kg DESC;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+            collection_point            | total_gross_kg
+----------------------------------------+----------------
+ Punto de Compra Algeciras 1            |        1093.81
+ Punto de Compra Coromoro 1             |        1079.24
+ Punto de Compra San AndrÚs De Tumaco 1 |        1014.27
+(3 rows)
+
 */
