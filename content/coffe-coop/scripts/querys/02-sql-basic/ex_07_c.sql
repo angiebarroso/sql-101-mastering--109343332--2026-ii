@@ -9,5 +9,9 @@ FROM farm.farmers AS T1
 WHERE T1.municipality_code = '54518';
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+ total_farmers | farmers_with_email
+---------------+--------------------
+           230 |                165
+(1 row)
+
 */

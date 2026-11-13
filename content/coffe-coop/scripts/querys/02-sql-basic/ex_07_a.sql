@@ -10,5 +10,8 @@ FROM buy.deliveries AS T1
 WHERE T1.delivery_id LIKE 'DLV-20260930-%';
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+ total_deliveries | total_gross_kg | avg_gross_kg | farms_delivering
+------------------+----------------+--------------+------------------
+              300 |       52190.96 |       173.97 |              300
+(1 row)
 */

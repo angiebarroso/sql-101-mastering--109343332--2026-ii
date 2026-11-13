@@ -11,5 +11,8 @@ FROM buy.quality_analyses AS T1
 WHERE T1.delivery_id LIKE 'DLV-20260930-%';
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+ min_cup_score | max_cup_score | avg_cup_score | min_moisture_pct | max_moisture_pct
+---------------+---------------+---------------+------------------+------------------
+         77.17 |         87.28 |         82.91 |             8.39 |            17.68
+(1 row)
 */
