@@ -13,5 +13,7 @@ WHERE T1.municipality_code = '54518'
   AND T2.farm_id IS NULL;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+ document | first_name | last_name | farm
+----------+------------+-----------+------
+(0 rows)
 */
