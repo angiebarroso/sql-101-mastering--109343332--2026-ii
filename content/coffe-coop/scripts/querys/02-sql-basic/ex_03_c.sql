@@ -10,5 +10,8 @@ RIGHT JOIN farm.coffee_varieties AS T2
 WHERE T1.plot_variety_id IS NULL;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+ variety | species
+---------+---------
+(0 rows)
+
 */
