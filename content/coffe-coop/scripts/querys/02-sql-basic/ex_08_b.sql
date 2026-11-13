@@ -11,5 +11,10 @@ GROUP BY T1.coffee_type
 ORDER BY total_gross_kg DESC;
 
 /*
-Pega aqui el resultado de PostgreSQL (maximo 10 filas + total de filas)
+  coffee_type  | deliveries_count | total_gross_kg
+---------------+------------------+----------------
+ dry_parchment |              278 |       48246.55
+ cherry        |               10 |        2053.16
+ wet_parchment |               12 |        1891.25
+(3 rows)
 */
